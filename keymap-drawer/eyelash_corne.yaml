@@ -1,6 +1,6 @@
 layers:
   QWERTY:
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
   - Q
   - W
   - E
@@ -61,7 +61,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '6'
   - {t: '7', s: '&'}
@@ -82,7 +82,7 @@ layers:
   - {t: /, s: '?'}
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - .
   - $$mdi:volume-off$$
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
