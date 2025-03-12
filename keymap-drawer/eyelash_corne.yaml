@@ -68,9 +68,9 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - VOLUME DOWN
+  - $$mdi:volume-low$$
   - '&studio_unlock'
-  - VOLUME UP
+  - $$mdi:volume-high$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
