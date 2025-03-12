@@ -40,7 +40,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - '#'
+  - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - LGUI
   - $$mdi:keyboard-space$$
@@ -78,8 +78,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: \, s: '|'}
-  - {t: /, s: '?'}
+  - \
+  - '@'
   - {t: '-', s: _}
   - {t: '=', s: +}
   - .
@@ -139,7 +139,7 @@ layers:
   - '{'
   - '}'
   - '|'
-  - RGB TOG
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
