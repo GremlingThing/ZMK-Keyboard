@@ -60,7 +60,7 @@
         define: define {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(NON_US_HASH) &kp D &kp E &kp F &kp I &kp N &kp E &kp SPACE>;
+            bindings = <&kp NON_US_HASH &kp D &kp E &kp F &kp I &kp N &kp E &kp SPACE>;
             label = "DEFINE";
         };
 
