@@ -56,6 +56,20 @@
             bindings = <&kp MINUS &kp GT>;
             label = "POINTER";
         };
+
+        define: define {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp POUND &kp D &kp E &kp F &kp I &kp N &kp E &kp SPACE>;
+            label = "DEFINE";
+        };
+
+        include: define {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp POUND &kp I &kp N &kp C &kp L &kp U &kp D &kp E &kp SPACE>;
+            label = "DEFINE";
+        };
     };
 
     keymap {
