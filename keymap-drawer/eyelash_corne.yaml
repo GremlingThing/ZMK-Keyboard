@@ -75,11 +75,11 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - HOME
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&define'
+  - '&include'
   - {t: '$$mdi:transfer$$', type: trans}
   - \
-  - '"'
+  - {t: '''', s: '"'}
   - '#'
   - {t: '-', s: _}
   - {t: '=', s: +}
@@ -87,8 +87,8 @@ layers:
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {t: '`', s: '~'}
   - '&pointer'
-  - '{'
-  - '}'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - '&define'
   - '&include'
   - {t: '$$mdi:transfer$$', type: trans}
