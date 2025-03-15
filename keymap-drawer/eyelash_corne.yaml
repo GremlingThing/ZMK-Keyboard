@@ -19,9 +19,9 @@ layers:
   - D
   - F
   - G
-  - VOLUME DOWN
+  - $$mdi:volume-low$$
   - RGB TOG
-  - VOLUME UP
+  - $$mdi:volume-high$$
   - H
   - J
   - K
@@ -45,7 +45,7 @@ layers:
   - LGUI
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: NUMBER}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:backspace-reverse-outline$$'}
+  - {t: '$$mdi:keyboard-return$$', h: NUMBER}
   - SYMBOL
   - $$mdi:apple-keyboard-option$$
   NUMBER:
@@ -68,9 +68,9 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - $$mdi:volume-low$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&studio_unlock'
-  - $$mdi:volume-high$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -94,7 +94,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
